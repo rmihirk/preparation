@@ -2,23 +2,6 @@
   
 # Java Collections & Framework README
 
-## Table of Contents
-- [Q1 What is a framework in Java?](#q1--what-is-a-framework-in-java)
-- [Q2 What is the Collection framework in Java?](#q2--what-is-the-collection-framework-in-java)
-- [Q3 Describe the Collection hierarchy in Java](#q3--describe-the-collection-hierarchy-in-java)
-- [Q4 Primary interfaces provided by Java Collections Framework](#q4--primary-interfaces-provided-by-java-collections-framework)
-- [Q5 Why Collection doesn't extend Cloneable and Serializable?](#q5--why-collection-doesnt-extend-cloneable-and-serializable)
-- [Q6 Major advantages of generic collections](#q6--major-advantages-of-generic-collections)
-- [Q7 Main benefit of using a properties file](#q7--main-benefit-of-using-a-properties-file)
-- [Q8 What is Iterator in the Java Collection Framework?](#q8--what-is-iterator-in-the-java-collection-framework)
-- [Q9 Why override equals()?](#q9--why-override-equals)
-- [Q10 How the Collection objects are sorted in Java?](#q10--how-the-collection-objects-are-sorted-in-java)
-- [Q11 What is the use of the List interface?](#q11--what-is-the-use-of-the-list-interface)
-- [Q12 What is ArrayList in Java?](#q12--what-is-arraylist-in-java)
-- [Q13 How to convert between Array and ArrayList?](#q13--how-to-convert-between-array-and-arraylist)
-- [Q14 How to reverse a List?](#q14--how-to-reverse-a-list)
----
-
 ## Q1 What is a framework in Java?
 A framework is a reusable, prebuilt architecture that provides a set of classes and interfaces to simplify development by offering common functionality and design patterns.
 
