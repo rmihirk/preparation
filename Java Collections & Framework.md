@@ -19,6 +19,25 @@ Key notes:
 - `Queue` follows FIFO or priority-based ordering.
 - `Map` stores key-value pairs independently from the `Collection` hierarchy.
 
+## Java Collections Comparison Table
+
+| Collection               | Ordering | Random Access | Key-Value | Duplicate Elements | Null Element | Thread Safety |
+|--------------------------|----------|----------------|-----------|---------------------|---------------|----------------|
+| ArrayList                | Yes      | Yes            | No        | Yes                 | Yes           | No             |
+| LinkedList               | Yes      | No             | No        | Yes                 | Yes           | No             |
+| HashSet                  | No       | No             | No        | No                  | Yes           | No             |
+| TreeSet                  | Yes      | No             | No        | No                  | No            | No             |
+| HashMap                  | No       | No             | Yes       | Yes                 | Yes           | No             |
+| TreeMap                  | Yes      | No             | Yes       | Yes                 | No            | No             |
+| Vector                   | Yes      | Yes            | No        | Yes                 | Yes           | Yes            |
+| Hashtable                | No       | No             | Yes       | Yes                 | No            | Yes            |
+| Properties               | No       | No             | Yes       | Yes                 | No            | Yes            |
+| Stack                    | Yes      | No             | No        | Yes                 | Yes           | Yes            |
+| CopyOnWriteArrayList     | Yes      | Yes            | No        | Yes                 | Yes           | Yes            |
+| ConcurrentHashMap        | No       | No             | Yes       | Yes                 | No            | Yes            |
+| CopyOnWriteArraySet      | No       | No             | No        | No                  | Yes           | Yes            |
+
+
 ## Q4 Primary interfaces provided by Java Collections Framework
 - `interface Collection<E> extends Iterable<E>`  
   Root of the collection hierarchy; most collection classes implement this.
