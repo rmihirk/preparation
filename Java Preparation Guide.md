@@ -1,3 +1,5 @@
+<em>
+    
 # Java Preparation Guide
 
 ## Q.1 Difference between final, finally, finalize?
@@ -697,4 +699,4 @@ students.sort(comp);
 | Flexibility | Fixed | Flexible (multiple comparators) |
 | Use Case | One natural ordering | Multiple orderings needed |
 
-
+</em>
