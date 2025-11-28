@@ -1,3 +1,5 @@
+<em>
+
 # QA Basics
 
 ## Basics of Software Testing
@@ -124,3 +126,4 @@ A test is a good candidate for automation when:
 5. Develop and execute test cases
 6. Analyze and generate test reports
 
+</em>

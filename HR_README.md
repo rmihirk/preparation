@@ -1,3 +1,5 @@
+<em>
+
 # QA Interview Preparation Guide
 
 ## Q.1 Tell me about yourself
@@ -134,3 +136,5 @@ I'd recognize that change requires explanation and support. I'd provide evidence
 **Sample Answer:**
 
 I'd verify the reasons for the change, communicate transparently with the team, collaborate on a new timeline, and adjust priorities accordingly while maintaining quality standards.
+
+</em>
