@@ -1,14 +1,45 @@
-### Lists: Ordered, mutable.
+### 🧩 Lists: Ordered, mutable.
 
   Lists are Python's most versatile collection. They are used to store multiple items in a single variable.
   
-  #### ⚙️ List Characteristics
+  #### ⚙️ Characteristics
   * **Ordered:** They maintain the order in which elements are inserted.
   * **Mutable:** You can change, add, and remove items after the list is created.
   * **Allows Duplicates:** Since lists are indexed, they can have items with the same value.
   * **Heterogeneous:** A single list can contain different data types (e.g., `[1, "Apple", True]`).
-  
-  #### 🛠 List Methods Reference
+
+#### 📌 Creating List
+
+```python
+# Empty list
+l1 = []
+
+# List with integers
+l2 = [1, 2, 3]
+
+# Mixed data types
+l3 = ["apple", 42, 3.14]
+
+# Nested list
+l4 = [1, [2, 3], [4, 5]]
+
+```
+
+#### 🎯 Accessing & Modifying
+
+```python
+fruits = ["apple", "banana", "cherry"]
+
+print(fruits[0])    # apple
+print(fruits[-1])   # cherry
+
+# Modify
+fruits[1] = "orange"
+print(fruits)       # ['apple', 'orange', 'cherry']
+
+```
+
+  #### 📜 Methods
   
   | Method | Description | Example |
   | :--- | :--- | :--- |
@@ -24,7 +55,7 @@
   | `.reverse()` | Reverses the order of the list **in-place**. | `nums.reverse()` |
   | `.copy()` | Returns a **shallow copy** of the list. | `new_list = fruits.copy()` |
   
-  #### ✂️ Advanced Feature: Slicing
+  #### ⚡ Advanced Feature: Slicing
   Slicing allows you to get a sub-section of a list using the syntax `list[start:stop:step]`.
   
   ```python
