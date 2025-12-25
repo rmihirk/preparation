@@ -1,4 +1,4 @@
-### Sets: unique, unordered
+### 🧩 Sets: unique, unordered
 
 #### ⚙️ Characteristics
   * **Unordered:** No guaranteed order of elements.
