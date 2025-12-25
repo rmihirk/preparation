@@ -1,6 +1,6 @@
 ### 🧩 Dictionary: Ordered, mutable.
 
-#### ⚙️ List Characteristics
+#### ⚙️ Characteristics
   * **Key–Value pairs:** Each item has a unique key and its associated value..
   * **Mutable:** You can add, update, or remove items.
   * **Keys must be immutable:** Keys must be immutable (e.g., strings, numbers, tuples).
@@ -38,7 +38,7 @@ del person["city"]
 
 ```
 
-#### 📜 Dictionary Methods
+#### 📜 Methods
 
  | Method | Description | Example |
   | :--- | :--- | :--- |
@@ -115,3 +115,4 @@ count = Counter(data)
 print(count)  # {'apple': 2, 'banana': 1, 'cherry': 1}
 
 ```
+
