@@ -1,6 +1,6 @@
 ### Sets: unique, unordered
 
-#### ⚙️ List Characteristics
+#### ⚙️ Characteristics
   * **Unordered:** No guaranteed order of elements.
   * **Unique:** Automatically removes duplicates.
   * **Mutable:**  You can add or remove elements.
@@ -40,7 +40,7 @@ print(3 in s)  # True
 
 ```
 
-#### 📜 Set Methods
+#### 📜 Methods
 Here’s the full list of commonly used methods:
 
  | Method | Description | Example |
@@ -59,7 +59,7 @@ Here’s the full list of commonly used methods:
   | `.issuperset(other)` | Checks if superset. | `s.issuperset({1,2})` |  
   | `.isdisjoint(other)` | True if no common elements. | `s.isdisjoint({10,11})` |  
 
-#### ⚡ Advanced Features of Sets
+#### ⚡ Advanced Features
 
 ##### 1. Set Operations (like Math)
 
@@ -94,15 +94,4 @@ nums = [1, 2, 2, 3, 3, 4]
 unique = set(nums)
 print(unique)  # {1, 2, 3, 4}
 ```
-
-### Dicts: Key-value pairs.
-```python
-user = {"name": "Mihir", "role": "QA Architect"}
-```
-
-#### Mental Model: 
-Choose based on mutability and uniqueness needs.
-
---- 
-
 
