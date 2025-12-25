@@ -1,12 +1,12 @@
-### Tuples: ordered, immutable
+### 🧩 Tuples: ordered, immutable
 
- #### ⚙️ List Characteristics
+ #### ⚙️ Characteristics
   * **Ordered:** Elements have a fixed position.
   * **Immutable:** Once created, you cannot change, add, or remove elements.
   * **Indexed:** Access elements by index (starting at 0).
   * **Heterogeneous:** Can store different data types (int, str, float, etc.).
     
- #### 🛠 List Methods Reference
+ #### 📜 Methods
 Tuples are deliberately minimal because they’re immutable. They only have two built-in methods:
 
  | Method | Description | Example |
@@ -16,7 +16,7 @@ Tuples are deliberately minimal because they’re immutable. They only have two 
 
 - That’s it — unlike lists, tuples don’t have .append(), .remove(), etc., because they cannot be modified
 
- #### ✂️ Advanced Feature of Tuples
+ #### ⚡ Advanced Feature of Tuples
 
  ##### 1. Tuple Packing & Unpacking
 ```python
