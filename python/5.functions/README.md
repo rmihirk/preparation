@@ -66,7 +66,7 @@ add, mul = calc(3, 4)
 print(add, mul)  # 7 12
 ```
 
-2. Docstrings
+##### 2. Docstrings
 
 ```python
 def greet(name):
@@ -74,7 +74,7 @@ def greet(name):
     print(f"Hello, {name}")
 ```
 
-3. Nested Functions
+##### 3. Nested Functions
 
 ```python
 def outer():
@@ -85,7 +85,7 @@ def outer():
 outer()
 ```
 
-4. Closures
+##### 4. Closures
 
 ```python
 def make_multiplier(n):
@@ -97,7 +97,7 @@ double = make_multiplier(2)
 print(double(5))  # 10
 ```
 
-5. Decorators
+##### 5. Decorators
 Functions that modify other functions:
 
 ```python
